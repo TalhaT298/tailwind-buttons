@@ -1,12 +1,16 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import SyntaxHighlighter from 'react-syntax-highlighter';
+import { docco } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 
 
 const ButtonOne = () => {
+    const codeString = '(num) => num + 1';
     return (
-        <div className='flex'>
+        <div className=''>
               
-
+              <SyntaxHighlighter language="javascript" style={docco}>
+      {codeString}
+    </SyntaxHighlighter>
         </div>
     );
 };
