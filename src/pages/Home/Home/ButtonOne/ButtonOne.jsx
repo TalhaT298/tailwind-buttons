@@ -30,50 +30,55 @@
 
 // export default ButtonOne;
 import React, { useState } from 'react';
+import shortenUrl from 'shorten-url';
 
 const ButtonOne = () => {
-  const [originalLink, setOriginalLink] = useState('');
-  const [shortenedLink, setShortenedLink] = useState('');
-  const [error, setError] = useState(null);
+  const [inputUrl, setInputUrl] = useState('');
+  const [shortenedUrl, setShortenedUrl] = useState('');
 
-  const handleInputChange = (event) => {
-    setOriginalLink(event.target.value);
+  const handleChange = (e) => {
+    setInputUrl(e.target.value);
   };
 
-  const shortenLink = async () => {
-    try {
-      const response = await fetch(`YOUR_SHORTENER_API_ENDPOINT?url=${encodeURIComponent(originalLink)}`);
-      if (!response.ok) {
-        throw new Error(`Failed to shorten link: ${response.status} ${response.statusText}`);
-      }
-      const data = await response.json();
-      if (data && data.shortened_url) {
-        setShortenedLink(data.shortened_url);
-        setError(null);
-      } else {
-        throw new Error('Invalid response from URL shortening service');
-      }
-    } catch (error) {
-      console.error('Error shortening link:', error);
-      setError('Error shortening link');
-    }
+  const shorten = () => {
+    shortenUrl(inputUrl, 30)
+      .then((shortUrl) => {
+        console.log('Shortened URL obtained:', shortUrl); // Debugging
+        setShortenedUrl(shortUrl);
+        console.log('Shortened URL state:', shortenedUrl); // Debugging
+      })
+      .catch((error) => {
+        console.error('Error shortening URL:', error);
+      });
+  };
+
+  const copyToClipboard = () => {
+    navigator.clipboard.writeText(shortenedUrl);
+    alert('Shortened URL copied to clipboard!');
   };
 
   return (
     <div>
-      <input type="text" value={originalLink} onChange={handleInputChange} placeholder="Enter your link" />
-      <button onClick={shortenLink}>Shorten Link</button>
-      {shortenedLink && (
+      <input
+        type="text"
+        value={inputUrl}
+        onChange={handleChange}
+        placeholder="Enter URL to shorten"
+      />
+      <button onClick={shorten}>Shorten URL</button>
+      {shortenedUrl && (
         <div>
-          <p>Original Link: {originalLink}</p>
-          <p>Shortened Link: {shortenedLink}</p>
+          <p>Shortened URL: {shortenedUrl}</p>
+          <button onClick={copyToClipboard}>Copy</button>
         </div>
       )}
-      {error && <p>{error}</p>}
     </div>
   );
 };
 
 export default ButtonOne;
+
+
+
 
 
