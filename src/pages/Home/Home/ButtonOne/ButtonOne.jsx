@@ -29,56 +29,14 @@
 // };
 
 // export default ButtonOne;
-import React, { useState } from 'react';
-import shortenUrl from 'shorten-url';
+import React from 'react';
 
 const ButtonOne = () => {
-  const [inputUrl, setInputUrl] = useState('');
-  const [shortenedUrl, setShortenedUrl] = useState('');
-
-  const handleChange = (e) => {
-    setInputUrl(e.target.value);
-  };
-
-  const shorten = () => {
-    shortenUrl(inputUrl, 30)
-      .then((shortUrl) => {
-        console.log('Shortened URL obtained:', shortUrl); // Debugging
-        setShortenedUrl(shortUrl);
-        console.log('Shortened URL state:', shortenedUrl); // Debugging
-      })
-      .catch((error) => {
-        console.error('Error shortening URL:', error);
-      });
-  };
-
-  const copyToClipboard = () => {
-    navigator.clipboard.writeText(shortenedUrl);
-    alert('Shortened URL copied to clipboard!');
-  };
-
   return (
     <div>
-      <input
-        type="text"
-        value={inputUrl}
-        onChange={handleChange}
-        placeholder="Enter URL to shorten"
-      />
-      <button onClick={shorten}>Shorten URL</button>
-      {shortenedUrl && (
-        <div>
-          <p>Shortened URL: {shortenedUrl}</p>
-          <button onClick={copyToClipboard}>Copy</button>
-        </div>
-      )}
+      
     </div>
   );
 };
 
 export default ButtonOne;
-
-
-
-
-
