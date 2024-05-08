@@ -32,25 +32,3 @@
 
 
 
-import { getAllDivision } from 'bd-divisions-to-unions';
-import React, { useState, useEffect } from 'react';
-
-const ButtonOne = () => {
-  const [divisions, setDivisions] = useState([]);
-
-  useEffect(() => {
-    // Fetch the divisions in English and update the state
-    const divisionsData = getAllDivision("en");
-    setDivisions(divisionsData);
-  }, []);
-
-  return (
-    <div>
-      {divisions.map((division, index) => (
-        <p key={index}>{division.title}</p>
-      ))}
-    </div>
-  );
-};
-
-export default ButtonOne;
