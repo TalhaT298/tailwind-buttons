@@ -29,12 +29,61 @@
 // };
 
 // export default ButtonOne;
-import React from 'react';
+import React, { useState } from 'react';
+import axios from 'axios';
 
 const ButtonOne = () => {
+  const [userInput, setUserInput] = useState("");
+  const [shortenedLink, setShortenedLink] = useState("");
+  const [copySuccess, setCopySuccess] = useState(false);
+
+  const fetchData = async () => {
+    try {
+      const response = await axios(
+        `https://api.shrtco.de/v2/shorten?url=${userInput}`
+      );
+      setShortenedLink(response.data.result.full_short_link);
+    } catch (e) {
+      console.log(e);
+    }
+  };
+
+  const copyToClipboard = () => {
+    navigator.clipboard.writeText(shortenedLink)
+      .then(() => {
+        setCopySuccess(true);
+      })
+      .catch(err => {
+        console.error('Failed to copy:', err);
+      });
+  };
+
   return (
     <div>
-      
+      <input
+        value={userInput}
+        onChange={(e) => setUserInput(e.target.value)}
+      />
+      <button
+        className="bg-blue-500 text-white px-8 py-3 ml-4 rounded-md"
+        onClick={fetchData}
+      >
+        Submit URL
+      </button>
+      <div className="mt-5">
+        {shortenedLink && (
+          <>
+            <span>{shortenedLink}</span>
+            <button
+              className="border-2 border-blue-500 text-blue-500 font-medium px-5 py-2 ml-4 rounded-md"
+              onClick={copyToClipboard}
+            >
+              okkkkkkkkkkkkkkkkkkkkkkk
+              {copySuccess ? 'Copied!' : 'Copy URL to Clipboard'}
+            </button>
+          </>
+        )}
+      </div>
     </div>
   );
 };
