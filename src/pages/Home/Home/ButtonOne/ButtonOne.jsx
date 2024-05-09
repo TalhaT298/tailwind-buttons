@@ -94,7 +94,16 @@ const ButtonOne = () => {
       {/* 6th */}
       <div>
       <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out animate-flash" onclick="alert('Clicked!')">Click me</button>
-
+      <div className="mockup-code bg-black">
+        <pre>
+          {`<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out animate-flash" onclick="alert('Clicked!')">Click me</button>`}
+          <code>npm i daisyui</code>
+        </pre>
+      </div>
+      </div>
+      {/* 7th */}
+      <div>
+      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out animate-flash" onclick="alert('Clicked!')">Click me</button>
       <div className="mockup-code bg-black">
         <pre>
           {`<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out animate-flash" onclick="alert('Clicked!')">Click me</button>`}
