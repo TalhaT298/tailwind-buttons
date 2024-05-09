@@ -134,7 +134,16 @@ const ButtonOne = () => {
       <div className="mockup-code bg-black">
         <pre>
           {`<button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out opacity-0 hover:opacity-100" onclick="alert('Clicked!')">Click me</button>`}
-          
+        </pre>
+      </div>
+      </div>
+      {/* 10 */}
+      <div>
+      <button class="bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:translate-y-1" onclick="alert('Clicked!')">Click me</button>
+      <code>Slide-in Animation Button</code>
+      <div className="mockup-code bg-black">
+        <pre>
+          {`<button class="bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:translate-y-1" onclick="alert('Clicked!')">Click me</button>`}
         </pre>
       </div>
       </div>
