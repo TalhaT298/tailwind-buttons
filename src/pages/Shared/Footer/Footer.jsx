@@ -12,35 +12,35 @@ import { BiLogoGmail } from "react-icons/bi";
 const Footer = () => {
   return (
     <div>
-      <footer className="footer items-center p-4 bg-neutral text-neutral-content">
+      <footer className="footer items-center p-4 bg-black text-neutral-content">
         <aside className="items-center grid-flow-col">
-          <img className="w-20 h-14" src={logo} alt="" />
+          <img className="w-16 h-10" src={logo} alt="" />
           <p>Copyright © 2024 - Talha Tarique</p>
         </aside>
         <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
           <a href="">
-            <FaFacebookF size="1.7rem" color="white" />
+            <FaFacebookF size="1.4rem" color="white" />
           </a>
           <a href="">
-            <FaInstagram size="1.7rem" color="white" />
+            <FaInstagram size="1.4rem" color="white" />
           </a>
           <a href="">
-            <FaLinkedinIn  size="1.7rem" color="white" />
+            <FaLinkedinIn  size="1.4rem" color="white" />
           </a>
           <a href="">
-            <BsTwitterX  size="1.7rem" color="white" />
+            <BsTwitterX  size="1.4rem" color="white" />
           </a>
           <a href="">
-            <FaWhatsapp size="1.7rem" color="white" />
+            <FaWhatsapp size="1.4rem" color="white" />
           </a>
           <a href="">
-            <FaDiscord size="1.7rem" color="white" />
+            <FaDiscord size="1.4rem" color="white" />
           </a>
           <a href="">
-            <FaThreads size="1.7rem" color="white" />
+            <FaThreads size="1.4rem" color="white" />
           </a>
           <a href="">
-            <BiLogoGmail  size="1.7rem" color="white" />
+            <BiLogoGmail  size="1.4rem" color="white" />
           </a>
           
         </nav>
