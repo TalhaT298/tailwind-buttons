@@ -121,6 +121,16 @@ const ButtonOne = () => {
         </pre>
       </div>
       </div>
+      {/* 9th */}
+      <div>
+      <button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out opacity-0 hover:opacity-100" onclick="alert('Clicked!')">Click me</button>
+      <div className="mockup-code bg-black">
+        <pre>
+          {`<button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out opacity-0 hover:opacity-100" onclick="alert('Clicked!')">Click me</button>`}
+          <code>Fade-in Animation Button</code>
+        </pre>
+      </div>
+      </div>
     </div>
   );
 };
