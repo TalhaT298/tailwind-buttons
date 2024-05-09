@@ -43,7 +43,7 @@ const ButtonOne = () => {
       <div className="mockup-code bg-black">
         <pre>
           {`<button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:rotate-3 animate-hinge" onClick={() => alert('Clicked!')}>Click me</button>`}
-          <code>npm i daisyui</code>
+          <code>Hinge Animation Button</code>
         </pre>
       </div>
       </div>
@@ -54,7 +54,7 @@ const ButtonOne = () => {
       <div className="mockup-code bg-black">
         <pre>
           {`<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:rotate-3 animate-swing" onclick="alert('Clicked!')">Click me</button>`}
-          <code>npm i daisyui</code>
+          <code>Rubber Band Animation Button</code>
         </pre>
       </div>
       </div>
@@ -66,7 +66,7 @@ const ButtonOne = () => {
       <div className="mockup-code bg-black">
         <pre>
           {`<button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:scale-105 animate-bounce" onclick="alert('Clicked!')">Click me</button>`}
-          <code>npm i daisyui</code>
+          <code>Tada Animation Button</code>
         </pre>
       </div>
       </div>
@@ -87,7 +87,7 @@ const ButtonOne = () => {
       <div className="mockup-code bg-black">
         <pre>
           {`<button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:scale-105 animate-ping" onclick="alert('Clicked!')">Click me</button>`}
-          <code>npm i daisyui</code>
+          <code>Heartbeat Animation Button</code>
         </pre>
       </div>
       </div>
@@ -97,7 +97,7 @@ const ButtonOne = () => {
       <div className="mockup-code bg-black">
         <pre>
           {`<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out animate-flash" onclick="alert('Clicked!')">Click me</button>`}
-          <code>npm i daisyui</code>
+          <code>Rubber Band Animation Button</code>
         </pre>
       </div>
       </div>
@@ -107,7 +107,7 @@ const ButtonOne = () => {
       <div className="mockup-code bg-black">
         <pre>
           {`<button class="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:translate-x-1 animate-shake" onclick="alert('Clicked!')">Click me</button>`}
-          <code>npm i daisyui</code>
+          <code>Flash Animation Button</code>
         </pre>
       </div>
       </div>
@@ -117,7 +117,7 @@ const ButtonOne = () => {
       <div className="mockup-code bg-black">
         <pre>
           {`<button class="bg-pink-500 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:rotate-180" onclick="alert('Clicked!')">Click me</button>`}
-          <code>npm i daisyui</code>
+          <code>Flip Animation Button</code>
         </pre>
       </div>
       </div>
