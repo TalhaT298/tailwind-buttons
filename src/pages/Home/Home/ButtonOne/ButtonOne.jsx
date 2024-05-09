@@ -111,6 +111,16 @@ const ButtonOne = () => {
         </pre>
       </div>
       </div>
+      {/* 8th */}
+      <div>
+      <button class="bg-pink-500 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:rotate-180" onclick="alert('Clicked!')">Click me</button>
+      <div className="mockup-code bg-black">
+        <pre>
+          {`<button class="bg-pink-500 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:rotate-180" onclick="alert('Clicked!')">Click me</button>`}
+          <code>npm i daisyui</code>
+        </pre>
+      </div>
+      </div>
     </div>
   );
 };
