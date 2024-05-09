@@ -88,7 +88,7 @@ const ButtonOne = () => {
 
       <div className="mockup-code bg-black">
         <pre>
-          {`<button class="bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out animate-pulse hover:animate-ping" onclick="alert('Clicked!')">Click me</button>`}
+          {`<button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:scale-105 animate-ping" onclick="alert('Clicked!')">Click me</button>`}
           <code>npm i daisyui</code>
         </pre>
       </div>
