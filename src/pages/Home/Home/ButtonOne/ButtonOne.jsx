@@ -47,7 +47,7 @@ const ButtonOne = () => {
         </pre>
       </div>
       </div>
-
+      {/* 2nd */}
       <div>
       <button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:scale-105 animate-wiggle" onclick="alert('Clicked!')">Click me</button>
 
@@ -59,7 +59,7 @@ const ButtonOne = () => {
       </div>
       </div>
 
-      
+      {/* 3rd */}
       <div>
       <button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:scale-105 animate-wiggle" onclick="alert('Clicked!')">Click me</button>
 
