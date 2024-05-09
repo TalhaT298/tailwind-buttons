@@ -61,7 +61,7 @@ const ButtonOne = () => {
 
       {/* 3rd */}
       <div>
-      <button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:scale-105 animate-wiggle" onclick="alert('Clicked!')">Click me</button>
+      <button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:scale-105 animate-bounce" onclick="alert('Clicked!')">Click me</button>
 
       <div className="mockup-code bg-black">
         <pre>
