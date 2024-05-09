@@ -40,21 +40,22 @@ const ButtonOne = () => {
       >
         Click me
       </button>
+      <code>Hinge Animation Button</code>
       <div className="mockup-code bg-black">
         <pre>
           {`<button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:rotate-3 animate-hinge" onClick={() => alert('Clicked!')}>Click me</button>`}
-          <code>Hinge Animation Button</code>
+          
         </pre>
       </div>
       </div>
       {/* 2nd */}
       <div>
       <button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:scale-105 animate-wiggle" onclick="alert('Clicked!')">Click me</button>
-
+      <code>Rubber Band Animation Button</code>
       <div className="mockup-code bg-black">
         <pre>
           {`<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:rotate-3 animate-swing" onclick="alert('Clicked!')">Click me</button>`}
-          <code>Rubber Band Animation Button</code>
+         
         </pre>
       </div>
       </div>
@@ -62,11 +63,11 @@ const ButtonOne = () => {
       {/* 3rd */}
       <div>
       <button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:scale-105 animate-bounce" onclick="alert('Clicked!')">Click me</button>
-
+      <code>Tada Animation Button</code>
       <div className="mockup-code bg-black">
         <pre>
           {`<button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:scale-105 animate-bounce" onclick="alert('Clicked!')">Click me</button>`}
-          <code>Tada Animation Button</code>
+          
         </pre>
       </div>
       </div>
@@ -77,57 +78,63 @@ const ButtonOne = () => {
       <div className="mockup-code bg-black">
         <pre>
           {`<button class="bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out animate-pulse hover:animate-ping" onclick="alert('Clicked!')">Click me</button>`}
-          <code>npm i daisyui</code>
+          <code>Heartbeat Animation Button</code>
         </pre>
       </div>
       </div>
       {/* 5th */}
       <div>
       <button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:scale-105 animate-ping" onclick="alert('Clicked!')">Click me</button>
+      <code>Rubber Band Animation Button</code>
       <div className="mockup-code bg-black">
         <pre>
           {`<button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:scale-105 animate-ping" onclick="alert('Clicked!')">Click me</button>`}
-          <code>Heartbeat Animation Button</code>
+          
         </pre>
       </div>
       </div>
       {/* 6th */}
       <div>
       <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out animate-flash" onclick="alert('Clicked!')">Click me</button>
+      <code>Swing Animation Button</code>
       <div className="mockup-code bg-black">
         <pre>
           {`<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out animate-flash" onclick="alert('Clicked!')">Click me</button>`}
-          <code>Rubber Band Animation Button</code>
+          
         </pre>
       </div>
       </div>
       {/* 7th */}
       <div>
       <button class="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:translate-x-1 animate-shake" onclick="alert('Clicked!')">Click me</button>
+      <code>Flash Animation Button</code>
       <div className="mockup-code bg-black">
         <pre>
           {`<button class="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:translate-x-1 animate-shake" onclick="alert('Clicked!')">Click me</button>`}
-          <code>Flash Animation Button</code>
+         
         </pre>
       </div>
       </div>
       {/* 8th */}
       <div>
       <button class="bg-pink-500 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:rotate-180" onclick="alert('Clicked!')">Click me</button>
+      <code>Flip Animation Button</code>
       <div className="mockup-code bg-black">
+      
         <pre>
           {`<button class="bg-pink-500 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:rotate-180" onclick="alert('Clicked!')">Click me</button>`}
-          <code>Flip Animation Button</code>
+          
         </pre>
       </div>
       </div>
       {/* 9th */}
       <div>
       <button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out opacity-0 hover:opacity-100" onclick="alert('Clicked!')">Click me</button>
+      <code>Fade-in Animation Button</code>
       <div className="mockup-code bg-black">
         <pre>
           {`<button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out opacity-0 hover:opacity-100" onclick="alert('Clicked!')">Click me</button>`}
-          <code>Fade-in Animation Button</code>
+          
         </pre>
       </div>
       </div>
