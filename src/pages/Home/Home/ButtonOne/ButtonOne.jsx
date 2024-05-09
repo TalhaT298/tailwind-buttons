@@ -58,6 +58,18 @@ const ButtonOne = () => {
         </pre>
       </div>
       </div>
+
+      
+      <div>
+      <button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:scale-105 animate-wiggle" onclick="alert('Clicked!')">Click me</button>
+
+      <div className="mockup-code bg-black">
+        <pre>
+          {`<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:rotate-3 animate-swing" onclick="alert('Clicked!')">Click me</button>`}
+          <code>npm i daisyui</code>
+        </pre>
+      </div>
+      </div>
     </div>
   );
 };
