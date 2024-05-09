@@ -19,7 +19,7 @@ const Navbar = () => {
   }, []);
   return (
     <div>
-      <nav className="flex items-center justify-between bg-black  py-2 text-white mb-24">
+      <nav className="flex items-center justify-between bg-black  py-2 text-white mb-8">
         <div className="scale-100 cursor-pointer rounded-2xl px-3 py-2 text-xl font-semibold text-white transition-all duration-200 hover:scale-110">
           <img className="w-20 h-14" src={logo} alt="" />
         </div>
