@@ -58,6 +58,7 @@ const Navbar = () => {
             strokeLinejoin="round"
             className="cursor-pointer"
           >
+            {/* ok */}
             {" "}
             <line x1="4" x2="20" y1="12" y2="12" />{" "}
             <line x1="4" x2="20" y1="6" y2="6" />
