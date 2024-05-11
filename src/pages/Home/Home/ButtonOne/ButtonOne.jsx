@@ -177,6 +177,16 @@ const ButtonOne = () => {
         </pre>
       </div>
       </div>
+      {/* 14 */}
+      <div>
+      <button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:scale-105 animate-bounce hover:rotate-180" onclick="alert('Clicked!')">Click me</button>
+      <code>Bounce Animation Button with Flip</code>
+      <div className="mockup-code bg-black">
+        <pre>
+          {`<button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:scale-105 animate-bounce hover:rotate-180" onclick="alert('Clicked!')">Click me</button>`}
+        </pre>
+      </div>
+      </div>
     </div>
   );
 };
