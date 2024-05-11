@@ -179,11 +179,11 @@ const ButtonOne = () => {
       </div>
       {/* 14 */}
       <div>
-      <button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:scale-105 animate-bounce hover:rotate-180" onclick="alert('Clicked!')">Click me</button>
+      <button className="rounded-lg border-2 border-sky-500 px-8 py-3 text-xl text-sky-500 duration-200 hover:bg-sky-500 hover:text-white">Button</button>
       <code>Bounce Animation Button with Flip</code>
       <div className="mockup-code bg-black">
         <pre>
-          {`<button class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:scale-105 animate-bounce hover:rotate-180" onclick="alert('Clicked!')">Click me</button>`}
+          {`<button className="rounded-lg border-2 border-sky-500 px-8 py-3 text-xl text-sky-500 duration-200 hover:bg-sky-500 hover:text-white">Button</button>`}
         </pre>
       </div>
       </div>
