@@ -167,6 +167,16 @@ const ButtonOne = () => {
         </pre>
       </div>
       </div>
+      {/* 13 */}
+      <div>
+      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:scale-105 animate-wiggle hover:skew-y-6" onclick="alert('Clicked!')">Click me</button>
+      <code>Rubber Band Animation Button with Skew</code>
+      <div className="mockup-code bg-black">
+        <pre>
+          {`<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:scale-105 animate-wiggle hover:skew-y-6" onclick="alert('Clicked!')">Click me</button>`}
+        </pre>
+      </div>
+      </div>
     </div>
   );
 };
