@@ -180,7 +180,7 @@ const ButtonOne = () => {
       {/* 14 */}
       <div>
       <button className="rounded-lg border-2 border-sky-500 px-8 py-3 text-xl text-sky-500 duration-200 hover:bg-sky-500 hover:text-white">Button</button>
-      <code>Bounce Animation Button with Flip</code>
+      <code>Sky-themed rounded button</code>
       <div className="mockup-code bg-black">
         <pre>
           {`<button className="rounded-lg border-2 border-sky-500 px-8 py-3 text-xl text-sky-500 duration-200 hover:bg-sky-500 hover:text-white">Button</button>`}
