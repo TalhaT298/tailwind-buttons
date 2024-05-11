@@ -157,6 +157,16 @@ const ButtonOne = () => {
         </pre>
       </div>
       </div>
+      {/* 12 */}
+      <div>
+      <button class="bg-purple-500 hover:bg-indigo-500 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:scale-105 animate-pulse" onclick="alert('Clicked!')">Click me</button>
+      <code>Pulse Animation Button with Color Change</code>
+      <div className="mockup-code bg-black">
+        <pre>
+          {` <button class="bg-purple-500 hover:bg-indigo-500 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:scale-105 animate-pulse" onclick="alert('Clicked!')">Click me</button>`}
+        </pre>
+      </div>
+      </div>
     </div>
   );
 };
